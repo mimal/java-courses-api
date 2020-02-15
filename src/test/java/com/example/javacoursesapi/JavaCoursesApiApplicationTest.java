@@ -9,6 +9,6 @@ class JavaCoursesApiApplicationTest {
     @Test
     public void added(){
         JavaCoursesApiApplication api = new JavaCoursesApiApplication();
-        assertEquals(10, api.added(5, 5));
+        assertEquals(25, api.added(5, 5));
     }
 }
